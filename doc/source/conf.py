@@ -34,6 +34,7 @@ feed_author = 'OpenStack Development Team'
 
 exclude_patterns = [
     'template.rst',
+    '**/**/template.rst'
 ]
 
 # Optionally allow the use of sphinxcontrib.spelling to verify the
