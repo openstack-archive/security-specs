@@ -5,16 +5,28 @@ This repository contains specifications and policies that apply to OpenStack
 Security Projects. These projects include OpenStack Security Guide, OpenStack
 Security Notes, and Bandit.
 
-Liberty Approved Specs
-~~~~~~~~~~~~~~~~~~~~~~
-
-.. TODO(jaegerandi): add specs/liberty/*/* to toctree once entries
-   besides template.rst exist.
+Mitaka Approved Specs
+~~~~~~~~~~~~~~~~~~~~~
 
 .. toctree::
    :glob:
    :maxdepth: 1
 
+   specs/mitaka/*/*
+
+Liberty Approved Specs
+~~~~~~~~~~~~~~~~~~~~~~
+
+None.
+
+Kilo Approved Specs
+~~~~~~~~~~~~~~~~~~~
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
+   specs/kilo/*/*
 
 Repository Information
 ======================
