@@ -7,7 +7,7 @@ http://creativecommons.org/licenses/by/3.0/legalcode
 ..
 
 ==========================================================
- Seperate Anchor validation functionality to enable reuse
+ Separate Anchor validation functionality to enable reuse
 ==========================================================
 
 https://blueprints.launchpad.net/anchor/+spec/anchor-separate-package
