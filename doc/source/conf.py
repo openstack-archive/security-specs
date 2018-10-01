@@ -37,6 +37,10 @@ exclude_patterns = [
     '**/**/template.rst'
 ]
 
+suppress_warnings = [
+    'image.nonlocal_uri',
+]
+
 # Optionally allow the use of sphinxcontrib.spelling to verify the
 # spelling of the documents.
 try:
