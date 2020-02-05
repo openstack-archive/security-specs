@@ -22,11 +22,16 @@ sys.path.insert(0, os.path.abspath('../..'))
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
 extensions = [
-    'sphinx.ext.autodoc',
     #'sphinx.ext.intersphinx',
-    'oslosphinx',
+    'openstackdocstheme',
     'yasfb',
 ]
+
+# openstackdocstheme options
+repository_name = 'openstack/security-specs'
+bug_project = 'bandit'
+bug_tag = ''
+html_theme = 'openstackdocs'
 
 # Feed configuration for yasfb
 feed_base_url = 'http://specs.openstack.org/openstack/security-specs'
