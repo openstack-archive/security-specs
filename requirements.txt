@@ -3,6 +3,6 @@
 # process, which may cause wedges in the gate later.
 pbr>=2.0.0
 doc8 # Apache-2.0
-openstackdocstheme>=1.30.0 # Apache-2.0
-sphinx>=1.8.1
+openstackdocstheme>=2.2.1 # Apache-2.0
+sphinx>=2.0.0,!=2.1.0 # BSD
 yasfb>=0.5.1
