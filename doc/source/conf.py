@@ -67,7 +67,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'security-specs'
-copyright = '%s, OpenStack Foundation' % datetime.date.today().year
+copyright = 'OpenStack Foundation'
 
 # If true, '()' will be appended to :func: etc. cross-reference text.
 add_function_parentheses = True
